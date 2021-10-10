@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper"></div>
+    <div class="container">
+      <h1>Currency Converter</h1>
+      <div class="box">
+        <div class="left-box">
+          <select name="currency" class="currency"></select>
+          <input type="number" id="num" autofocus />
+        </div>
+        <div class="right-box">
+          <select name="currency" class="currency"></select>
+          <input type="text" id="ans" disabled />
+        </div>
+      </div>
+      <p class="msg"></p>
+      <button class="btn" id="btn">
+        Convert
+        <!-- Div for loading animation -->
+        <div class="loading-1 loading">
+          <span class="span1"></span>
+          <span class="span2"></span
+          ><span class="span3"></span>
+        </div>
+      </button>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
